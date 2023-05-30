@@ -1425,6 +1425,8 @@ body content:
 string cta-button-1:
 string link-1:
 boolean $is-active-1: false
+link-playstore: https://media.tenor.com/t7rftXtub88AAAAC/among-us.gif
+link-appstore: https://media.tenor.com/t7rftXtub88AAAAC/among-us.gif
 
 -- ftd.row:
 width: fill-container
@@ -1493,6 +1495,7 @@ padding-vertical.px: 12
 padding-horizontal.px: 20
 border-radius.px: 8
 background.solid: $inherited.colors.cta-tertiary.hover
+link: $hero-4.link-playstore
 
 -- ftd.image:
 src: $hero-4.playstore
@@ -1524,6 +1527,7 @@ padding-horizontal.px: 20
 margin-left.px: 16
 border-radius.px: 8
 background.solid: $inherited.colors.cta-tertiary.hover
+link: $hero-4.link-appstore
 
 -- ftd.image:
 src: $hero-4.appstore
